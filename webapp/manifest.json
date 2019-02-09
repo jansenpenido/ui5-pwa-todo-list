@@ -126,6 +126,11 @@
 			"sizes": "512x512",
 			"type": "image/png"
 		}
-	]
+	],
+
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#244C7C",
+	"theme_color": "#FFFFFF"
 
 }
