@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+		
+		<!-- PWA related meta tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- PWA manifest -->
+		<link rel="manifest" href="manifest.json">
+		<!-- Add to home screen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="OpenUI5 TODO PWA">
+		<link rel="apple-touch-icon" href="icons/icon-152x152.png">
+		<!-- Windows related -->
+		<meta name="msapplication-TileImage" content="icons/icon-144x144.png">
+		<meta name="msapplication-TileColor" content="#386CC1">
+		<meta name="theme-color" content="#164391">
+
+		<title>UI5 TODO Application</title>
+		
+		<!-- Register service worker -->
+		<script src="register-worker.js"></script>
+
+		<script id="sap-ui-bootstrap"
+			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-async="true"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"com.jp.ui5-pwa-todo-list": "./"}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "com.jp.ui5-pwa-todo-list"
+					})
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+		<div id="splash-screen">
+			<h1>UI5 TODO List as a Progressive Web Application</h1>
+			<img src="logo.svg" alt="UI5 TODO Logo">
+			<p>This example demonstrates how to create an installable full screen UI5 based application 
+				with Fiori look and feel on a mobile device.</p>
+		</div>
+	</body>
+
+</html>

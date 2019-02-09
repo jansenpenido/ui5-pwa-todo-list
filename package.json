@@ -1,0 +1,14 @@
+{
+  "name": "ui5-pwa-todo-list",
+  "version": "1.0.0",
+  "description": "UI5 TODO List",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js --use_strict"
+  },
+  "author": "SAP SE",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
