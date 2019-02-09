@@ -1,1 +1,9 @@
-/* Enter your custom styles here */
+/* Splash screen */
+body {
+    background: #244C7C;
+}
+
+#splash-screen {
+    color:white;
+    text-align:center;
+}
