@@ -93,8 +93,8 @@
 		}
 	},
 	
-	"name": "UI5 TODO",
-	"short_name": "UI5 TODO",
+	"name": "UI5 To-do",
+	"short_name": "UI5 To-do",
 	"icons": [
 		{
 			"src": "icons/icon-128x128.png",
@@ -130,7 +130,6 @@
 
 	"start_url": "index.html",
 	"display": "standalone",
-	"background_color": "#244C7C",
+	"background_color": "#477979",
 	"theme_color": "#FFFFFF"
-
 }
