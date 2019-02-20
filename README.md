@@ -5,8 +5,6 @@ A simple To-do List [Progressive Web App](https://developers.google.com/web/prog
 
 Upon accessing the application from a touch device, you'll be prompted to add it to your home screen, so that it'll work just like a native mobile application, including full-screen interaction and offline support.
 
-The app 'clipboard' icon was designed by [Juliia Osadcha](https://juliiaosadcha.com/).
-
 ![Add to homescreen prompt](img/screenshot_1.png)
 ![PWA running on the device](img/screenshot_2.png)
 
@@ -22,9 +20,9 @@ The app 'clipboard' icon was designed by [Juliia Osadcha](https://juliiaosadcha.
 1. Run the command `node server.js` to start the app's server.
 1. Open the browser and enter `http://localhost:8809/` to see the app.
 
-## References
-This app is inspired by the OpenUI5 official sample provided [here](https://github.com/SAP/openui5-pwa-sample). 
-In order to improve the user experience, the project has been refactored according to the UI5's MVC standards and Fiori Guidelines.
-
 ## Author
-[Jansen Penido](https://about.me/jansen.penido)
+- [Jansen Penido](https://about.me/jansen.penido)
+
+## Acknowledgments
+- The app 'clipboard' icon was designed by [Juliia Osadcha](https://juliiaosadcha.com/).
+- This project was inspired by OpenUI5's official sample provided [here](https://github.com/SAP/openui5-pwa-sample). In order to improve the user experience, the project has been refactored according to the UI5's MVC standards and Fiori Guidelines.
